@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npx nodemon server.js",
+    "server": "npx node server.js",
     "client": "npm start --prefix ./client",
     "dev": "npm run server && npm run client",
     "build": "npm install && npm install --prefix client && npm run build --prefix client",
-    "start": "npx nodemon server.js"
+    "start": "npx node server.js"
   },
   "author": "Venus",
   "license": "ISC",
