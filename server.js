@@ -22,10 +22,6 @@ app.use(cors());
 app.use(morgan('dev'));
 
 //routes
-// Handle requests to the root endpoint
-app.get('/', (req, res) => {
-  res.send('Welcome to the Blood Bank App API'); // Adjust the response as needed
-});
 
 // 1 test route
 app.use("/api/v1/test", require("./routes/testRoutes"));
